@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* nav-bar */
+
+
+.nav{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    
+}
+
+.nav .nav-top{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.nav-top i{
+    color: #fff;
+    margin-left: 1vw;
+}
+
+.nav-top img{
+    height: 4.1vw;
+    width: 100px;
+    transition: all ease .3s;
+    border: 1px solid transparent;
+
+}
+
+.nav-top img:hover {
+    border: 1px solid white;
+}
+
+
+.nav-top .box1{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 5px;
+    transition: all ease .3s;
+    border: 1px solid transparent;
+}
+
+
+.box1:hover{
+    border: 1px solid #fff;
+}
+
+.nav-top h6{
+    font-size: 14px;
+    margin: 0 .4vw;
+    color: #ccc;
+}
+
+.nav-top h5{
+    font-size: 1.1vw;
+    margin: 0 .4vw;
+    color: #ffff;
+}
+
+.nav-top .box2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all ease .3s;
+}
+.box2 select{
+    height: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.box2 input{
+    height: 45px;
+     width: 100%;
+     margin-left: 0;
+    
+}
+
+.nav-top .box2 i{
+    background-color: #F3A847;
+    color: #000;
+    font-size: 2vw;
+    padding: .3vw .8vw;
+    margin-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid  transparent;
+}
+
+.nav-top .box2:hover{
+    border: 2px solid  #F3A847;
+}
+
+.nav-top .box3{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: all ease .3s;
+}
+
+.box3 select{
+    background-color: black;
+    color: #fff;
+    border: none;
+
+}
+.nav-top .box3:hover{
+    border: 2px solid #fff;
+}
+
+.nav-top .box4{
+    border: 2px solid transparent;
+    padding: 6px 9px;
+    transition: all ease .3s;;
+}
+
+
+.nav-top .box4:hover{
+    border: 2px solid #fff;
+}
+
+.nav-top .box5{
+    border: 2px solid transparent;
+    padding: 6px 9px;
+    transition: all ease .3s;;
+}
+
+.nav-top .box5:hover{
+    border: 2px solid #fff;
+    padding: 6px 9px;
+}
+
+.nav-top .box6{
+    padding: 6px 9px;
+    display: flex;
+    align-items: center;
+    transition: all ease .3s;
+    border: 2px solid transparent;
+}
+
+.nav-top .box6 i{
+background-color: transparent;
+color: #fff;
+font-size: 30px;
+}
+
+
+.nav-top .box6:hover{
+    border: 2px solid #fff;
+    padding: 6px 9px;
+}
+
+
+/* .nav-bottom */
+
+
+.nav .nav-bottom{
+    width: 100%;
+    height: 40%;
+    background-color: #232F3E;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.nav-bottom .bottom-left{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bottom-left h5{
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 8px;
+    border: 2px solid transparent;
+    transition: all ease .3s;
+    border: 1.5px solid transparent;
+}
+
+.bottom-left h5:hover{
+    border: 1.5px solid #fff;
+    
+}
+
+.bottom-right h2{
+    color: #fff;
+    font-weight: 100;
+  padding: 10px 2px;
+    border: 2px solid transparent;
+    transition: all ease .3s;
+    border: 1.5px solid transparent;
+}
+
+.bottom-right h2:hover{
+    border: 1.5px solid #fff;
+
+}
+
+
+/* page1 */
+
+
+.page1{
+    width: 100%;
+    min-height: 120vh;
+background-color: #EAEAEA;
+padding: 2vw 3vw;
+}
+
+.page1 .top-box{
+    width: 100%;
+    height: 40vh;
+    background-image: url(https://m.media-amazon.com/images/I/617hciFwqwL._SX3000_.jpg);
+background-position: top;
+background-size: cover;
+
+}
+
+.page1 .box{
+    width: 45vw;
+    display: inline-block;
+    margin: 1vw .5vw;
+    border-radius: 10px;
+    overflow: hidden;  
+    position: relative;
+}
+
+/* left-box */
+
+
+
+.box .box-hadding{
+    height: 8%;
+    width: 100%;
+    background-color: #fff;
+   
+}
+
+.box-hadding h3{
+    font-size: 2.5vw;
+    padding: 5px 20px;
+}
+
+.box .small-box1{
+    width: 21vw;
+    height: 50vh;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0 .4vw;
+    border-radius: 5px;
+}
+
+.small-box1 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box .small-box2{
+    width: 21vw;
+    height: 50vh;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 5px;
+}
+
+.small-box2 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box .small-box3{
+    width: 21vw;
+    height: 50vh;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 5px;
+}
+
+.small-box3 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box .small-box4{
+    width: 21vw;
+    height: 50vh;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 5px;
+}
+
+.small-box4 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box h6{
+    color: royalblue;
+    font-size: 1vw;
+    padding: 2vw 3vw;
+    transition: all ease .5s;
+}
+.box h6:hover{
+    color: rgb(199, 68, 94);
+    text-decoration: underline;
+}
+/* right-box */
+
+
+.page2{
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    padding: 2vw .5vw;
+}
+.page2 h1{
+   font-size: 2vw;
+   margin: 0 1vw;
+}
+
+.page2 h1 span{
+    font-size: 1vw;
+}
+
+.page2 .deals{
+    width: 100%;
+    height: 45vh;
+    display: flex;  
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.deal{
+    width: 20vw;
+height: 100%;
+margin-top: 1vw;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+margin-right: 2vw;
+}
+
+.deal h1{
+    font-size: 1.1vw;
+    background-color: red;
+    padding: 2px 4px;
+    margin: 1vw;
+}
+
+.deal img{
+    margin-left: 4vw;
+    margin-top: 1vw;
+}
+
+
+
+
+/*  */
+
+
+
+.page3{
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    padding: 2vw .5vw;
+}
+.page3 h1{
+   font-size: 2vw;
+   margin: 0 1vw;
+}
+
+.page3 h1 span{
+    font-size: 1vw;
+}
+
+.page3 .deals{
+    width: 100%;
+    height: 45vh;
+    display: flex;  
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.deals::-webkit-scrollbar{display: none;}
+
+.deal{
+width: 20vw;
+height: 100%;
+margin-top: 1vw;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+margin-right: 2vw;
+
+}
+
+
+.deal h1{
+    font-size: 1.1vw;
+    background-color: red;
+    padding: 2px 4px;
+    margin: 1vw;
+}
+
+.deal img{
+    margin-left: 4vw;
+    margin-top: 1vw;
+}
+
+
+.footer{
+    width: 100%;
+    /* height: 160%; */
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.footer .box1{
+    height: 100%;
+    width: 20%;
+    padding-top: 40px; 
+}
+
+.footer .box1:hover{
+    border: none;
+}
+
+.footer .box2{
+    height: 100%;
+    width: 20%;
+    padding-top: 40px; 
+}
+
+.footer .box3{
+    height: 100%;
+    width: 25%;
+    padding-top: 40px; 
+}
+
+
+.footer .box4{
+    height: 100%;
+    width: 20%;
+    padding-top: 40px; 
+}
+
+.footer h6{
+    font-size: 15px;
+    line-height: 29px;
+    color: #bab6b6;
+}
+
+.footer h4{
+    font-size: 19px;
+    color: #fff;
+}
